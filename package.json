@@ -1,0 +1,15 @@
+{
+  "name": "apar-store-web",
+  "version": "1.0.0",
+  "description": "TNAP Orders - store order desk for APAR orders (React app served by Express)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
