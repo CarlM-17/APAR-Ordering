@@ -12,12 +12,12 @@ const zlib = require('zlib');
 // These values are not secrets (access is controlled by the Firestore security rules).
 // Vercel environment variables with the same names override them.
 const FIREBASE_CONFIG = {
-  apiKey: process.env.FIREBASE_API_KEY || 'PASTE_API_KEY',
+  apiKey: process.env.FIREBASE_API_KEY || 'AIzaSyCasYEaZBS8q-4s0iB7hKJ9Y2XjJvQHID8',
   authDomain: process.env.FIREBASE_AUTH_DOMAIN || 'apar-ordering.firebaseapp.com',
   projectId: process.env.FIREBASE_PROJECT_ID || 'apar-ordering',
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET || 'PASTE_STORAGE_BUCKET',
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID || 'PASTE_MESSAGING_SENDER_ID',
-  appId: process.env.FIREBASE_APP_ID || 'PASTE_APP_ID',
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET || 'apar-ordering.firebasestorage.app',
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID || '29361870940',
+  appId: process.env.FIREBASE_APP_ID || '1:29361870940:web:3a8dfb1675450fc4e56e99',
 };
 const PORT = process.env.PORT || 3012;
 // ---------- END CONFIG ----------
